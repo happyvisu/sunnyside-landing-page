@@ -1,0 +1,263 @@
+body{    
+    font-size: 18px;
+}
+
+.header-img1{    
+    width: 100%;
+    height: 100%;   
+    position: absolute; 
+}
+
+.header-img2{
+    display: none;
+}
+
+.row>*{
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.container-fluid{
+    padding: 1%;
+}
+
+.creative-head{    
+    color: white;
+    font-family: 'Fraunces', serif;
+    font-weight: 900   ;
+    font-size: 3em;
+    letter-spacing: .2em;
+    text-align: center;  
+    padding-top: 80px; 
+    position: relative;      
+}
+
+.brand-head{
+    color: white;
+    font-family: 'Barlow',serif;
+    font-weight: 800;
+    padding-left: 2%;
+    font-size: 2em;
+}
+
+.nav-link{
+    color: white;
+    margin-right: 2em;
+    font-family: 'Barlow',serif;
+}
+
+.btn-contact{
+    color: black;
+    background-color: white;
+    border-radius: 25px;
+    padding-left: 30px ;
+    padding-right: 30px;
+    font-family: 'Fraunces',serif;    
+}
+
+.arrowdown{
+    padding-top: 6%;
+    padding-left: 49%;
+    padding-bottom: 18%;
+    position: relative;
+}
+
+.transform{         
+    padding: 10% 11% 0 10%;   
+}
+
+.transform > h2{
+    font-family: 'Fraunces', serif;
+    font-weight: 900   ;
+    font-size: 3em;
+}
+.learn{
+    font-family: 'Fraunces', serif;
+    padding-top: 5%;
+    color: black;
+    text-decoration: none;
+}
+.transform > p{
+    color: hsl(210, 4%, 67%);
+    font-family: 'Barlow',serif;
+    padding-top: 5%;
+    
+}
+
+.transform-img1{         
+    width: 100%;
+    height: 100%;
+}
+
+.transform-img2{
+    display: none;
+}
+
+
+.photo-graphic-img{
+    position: relative;   
+}
+.photo-graphic-head{
+    color: hsl(167, 40%, 24%);
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    text-align: center;
+}
+.photo-graphic-p{
+    font-family: 'Barlow',serif;    
+    color: hsl(167, 40%, 24%);;
+    position: absolute;
+    bottom:5%;
+    left: 25%; 
+    right: 25%;
+    text-align: center;
+}
+.photo-text-colo{
+    color: hsl(198, 62%, 26%);
+    
+}
+.client{
+    color: hsl(210, 4%, 67%);
+    text-align: center;
+    margin-top: 7%;
+    margin-bottom: 5%;
+    font-family: 'Fraunces', serif;
+    font-size: 20px;
+    letter-spacing: .3em;
+}
+
+.testimonials{
+    text-align: center;
+}
+.testimonials > p {
+    padding-right:17%;
+    padding-left: 17%;
+    padding-bottom: 10%;
+    color: hsl(210, 4%, 67%);
+    font-family: 'Barlow',serif;
+}
+.testimonials > img{
+    border-radius: 100%;
+    margin-bottom: 10%;
+}
+.testimonials > h4{
+    font-family: 'Fraunces', serif;
+}
+
+.foot-img{
+    width: 100%;
+    height: 100%;
+}
+.footer{
+    background-color: hsl(177, 43%, 52%);   
+    text-align: center;   
+    
+}
+.foot-text{
+    padding-top: 5%;
+    margin-bottom: 2% ;
+    color: hsl(167, 40%, 24%);
+    font-family: 'Barlow',serif;
+    font-weight: 800;
+    font-size: 2em;
+    text-align: center;
+    
+}
+.link{   
+    padding-right: 3%;
+    padding-left: 3%;
+    padding-bottom: 5%;
+    text-decoration: none;
+    font-family: 'Barlow',serif;
+    color: hsl(167, 40%, 24%);
+    opacity: .8;
+}
+.social-icon{
+    color:hsl(167, 40%, 24%);
+    padding: 5% 1% 5% 1%;    
+}
+
+
+/* --------------------------------------media setting------------------*/
+@media(max-width:600px){
+    
+    .header-img1{
+        display: none;
+     }
+     .header-img2{
+        width: 100%;
+        height: 100%;
+        display: block;
+        position: absolute;
+    }
+
+    .creative-head{            
+        font-weight: 900 ;
+        letter-spacing: .2em;
+        text-align: center;  
+        padding-top: 80px; 
+        position: relative;          
+    }
+    .arrowdown{
+        padding-top: 21%;
+        padding-left: 48%;
+        padding-bottom: 40%;
+        position: relative;    
+    }
+    .transform{         
+        padding: 30% 10% 20% 10%;          
+    }
+    .transform > h2{
+        text-align: center;
+        font-size: 2em;
+    }
+    .transform > p{
+        text-align: center;
+        font-size: 1.2em;
+    }
+    .learn{        
+        padding-top: 10%; 
+        padding-left:35%;
+    }
+    
+    .transform-img1{
+        display: none;
+    }    
+    .transform-img2{
+        width: 100%;
+        height:100%;
+        display:block;      
+    }
+    .photo-graphic-p{
+        left:10%;
+        right: 12%;
+        bottom:8%   
+    }
+
+    .client{
+        padding-top: 10%;
+    }
+    .foot-text{
+        padding-top: 10%;
+        margin-bottom: 10% ;
+    }      
+    .link{   
+        padding-right: 8%;
+        padding-left: 8%;        
+    }
+    .social-icon{
+        padding-top: 20%;
+        padding-left: 2%;
+        padding-right: 2%;
+        margin-bottom: 15%;
+    }
+        
+}
+
+
+
+
