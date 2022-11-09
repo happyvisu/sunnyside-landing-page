@@ -16,6 +16,9 @@ body{
     padding-right: 0;
     padding-left: 0;
 }
+.mobile{
+    display: none;
+}
 
 .container-fluid{
     padding: 1%;
@@ -205,8 +208,14 @@ body{
     .arrowdown{
         padding-top: 21%;
         padding-left: 48%;
-        padding-bottom: 40%;
+        padding-bottom: 50%;
         position: relative;    
+    }
+    .desktop{
+        display: none;
+    }
+    .mobile{
+        display: block;
     }
     .transform{         
         padding: 30% 10% 20% 10%;          
@@ -257,7 +266,3 @@ body{
     }
         
 }
-
-
-
-
